@@ -1,0 +1,104 @@
+main {
+  position: relative;
+  color: white;
+}
+
+.Section_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 120px 90px 70px;
+}
+
+.Section_1__content {
+  max-width: 950px;
+  padding: 0 0 2% 0;
+}
+
+.Main_Text_Up {
+  color: blueviolet;
+  font-size: 23px;
+  letter-spacing: 0.12em;
+  margin-bottom: 14px;
+  letter-spacing: -0.03em;
+}
+
+.Main_title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.Main_title span {
+  color: blueviolet;
+}
+/* ===== SECTION 3: LEFT-ALIGNED CONTENT SECTION ===== */
+/* Full viewport height section with image on left, content on right */
+.Section_Left {
+  min-height: 100vh; /* At least full viewport height */
+  display: flex; /* Horizontal side-by-side layout */
+  align-items: center; /* Vertically center all items */
+  justify-content: space-between; /* Space between image and content */
+  padding: 2% 120px 90px 70px; /* Matching padding with other sections */
+}
+
+/* ===== SECTION 3 IMAGE ===== */
+/* Left-side image container for Section 3 */
+.Section_Left__image {
+  order: -1; /* Place image first (on left) */
+}
+
+.Section_Left__image img {
+  width: 400px; /* Fixed image width */
+  z-index: 2; /* Layer above background */
+  border-radius: 80px; /* Large rounded corners */
+  box-shadow: 40px 40px 60px rgba(88, 0, 183, 0.86); /* Purple shadow effect */
+  animation: float 6s ease-in-out infinite; /* Floating animation */
+}
+
+/* ===== SECTION 3 CONTENT ===== */
+/* Text content wrapper for Section 3 */
+.Section_Left__content {
+  max-width: 550px; /* Limit content width */
+  padding: 0; /* No extra padding needed */
+}
+
+/* ===== SECTION 3 HEADING ===== */
+/* Main heading for Section 3 with large font size */
+.Main_title_left {
+  font-size: 90px; /* Large heading size */
+  font-weight: 400; /* Regular font weight */
+  line-height: 1.2; /* Compact line height */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+/* Highlighted text in Section 3 heading */
+.Main_title_left span {
+  color: blueviolet; /* Purple accent color */
+}
+.Line {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: 3px;
+  background-color: blueviolet;
+  margin: 15px 0;
+  border-radius: 2px;
+}
+
+.Main_Text_Down {
+  font-size: 15px;
+  opacity: 0.8;
+  line-height: 1.6;
+  color: white;
+  max-width: 950px;
+}
+
+.Section_1__image img {
+  width: 400px;
+  z-index: 2;
+  border-radius: 80px;
+  box-shadow: 40px 40px 60px rgba(88, 0, 183, 0.86);
+  animation: float 6s ease-in-out infinite;
+}

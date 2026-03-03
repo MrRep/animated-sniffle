@@ -1,0 +1,60 @@
+/* ===== HEADER NAVIGATION ===== */
+/* Main header container with flexbox layout */
+header {
+  position: relative;
+  display: flex; /* Flexbox for alignment */
+  justify-content: flex-end; /* Push items to the right */
+  align-items: center; /* Center items vertically */
+  padding: 2.5% 3%; /* Header padding */
+}
+
+/* ===== LOGO STYLING ===== */
+/* Logo positioned on the left with auto margin */
+.logo {
+  margin-right: auto; /* Push navigation to the right */
+}
+
+.logo img {
+  width: 200px; /* Logo width */
+}
+
+/* ===== NAVIGATION MENU ===== */
+/* Horizontal navigation list styling */
+.nav__links {
+  list-style: none; /* Remove default bullet points */
+  display: flex; /* Horizontal layout */
+  padding-right: 30px; /* Right padding for spacing */
+}
+
+/* Navigation links and overlay content links */
+.nav__links a,
+.overlay__content a {
+  font-size: 25px; /* Large readable font */
+  letter-spacing: -0.06em; /* Reduced letter spacing */
+  font-family: "Montserrat", sans-serif; /* Brand font */
+  font-weight: 400; /* Regular weight */
+  color: #edf0f1; /* Light gray color */
+  text-decoration: none; /* Remove underlines */
+}
+
+/* Individual navigation items */
+.nav__links li {
+  padding: 0px 25px; /* Horizontal padding between items */
+}
+
+/* Navigation link transitions */
+.nav__links li a {
+  transition: all 0.3s ease 0s; /* Smooth color change on hover */
+}
+
+/* Navigation link hover state */
+.nav__links li a:hover {
+  color: #6100a2; /* Purple color on hover */
+}
+
+/* ===== SEARCH ICON ===== */
+/* SVG search icon in header */
+.Search_Icon {
+  width: 38px; /* Icon size */
+  color: white; /* Icon color */
+}
